@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<groups>
+<run>
+<include name= "regression" />
+</run>
+</groups>
+
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="testcases.SearchOptionValidation"/>
+      <class name="testcases.T01_Login_Validation"/>
+      <class name="testcases.HeadPhPurcahse"/>
+      <class name="testcases.ResSpRunDriver"/>
+      <class name="testcases.HpTabx2Purchase"/>
+      <class name="testcases.MicePurchase"/>
+      <class name="testcases.RedSpObjKeywords"/>
+      <class name="testcases.T01_HP_Validation"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
