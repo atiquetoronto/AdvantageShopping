@@ -126,6 +126,7 @@ public class RedSpObjKeywords {
 			driver.findElement(webelementLocator.RdSpPay_Btn).click();
 			Thread.sleep(2000);
 			Logcollector.debug("Red Speaker Purchase Completed Successfully");
+			System.out.println("Red Speaker Purchase Completed Successfully");
 		}
 
 	@AfterMethod (groups = {"regression"})

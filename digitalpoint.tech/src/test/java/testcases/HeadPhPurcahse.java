@@ -54,6 +54,7 @@ public class HeadPhPurcahse {
 		Thread.sleep(2000);
 		driver.findElement(webelementLocator.HeadPhPay_Btn).click();
 		Logcollector.debug("Head Phone Purchase Completed Successfully");
+		System.out.println("Head Phone Purchase Completed Successfully");
 		}
 	
 	@AfterMethod (groups = {"regression"})

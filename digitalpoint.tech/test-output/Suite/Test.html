@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>7/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>7/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Dec 25 17:18:52 EST 2020</td>
+<td>Started on:</td><td>Sun Dec 27 14:08:08 EST 2020</td>
 </tr>
-<tr><td>Total time:</td><td>175 seconds (175923 ms)</td>
+<tr><td>Total time:</td><td>205 seconds (205754 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td>regression </td>
 </tr><tr>
@@ -67,6 +67,85 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testcases.SearchOptionValidation.loginValidation()'><b>loginValidation</b><br>Test class: testcases.SearchOptionValidation</td>
+<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;svg id=&quot;menuUser&quot; version=&quot;1.1&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; xmlns:xlink=&quot;http://www.w3.org/1999/xlink&quot; x=&quot;0px&quot; y=&quot;0px&quot; width=&quot;24px&quot; height=&quot;24px&quot; viewBox=&quot;0 0 24 24&quot; enable-background=&quot;new 0 0 24 24&quot; xml:space=&quot;preserve&quot;&gt;...&lt;/svg&gt; is not clickable at point (1392, 32). Other element would receive the click: &lt;a id=&quot;menuUserLink&quot; aria-label=&quot;UserMenu&quot; href=&quot;javascript:void(0)&quot; role=&quot;link&quot; class=&quot;img&quot; data-ng-click=&quot;login(&apos;loginMiniTitle&apos;)&quot; data-ng-mouseenter=&quot;miniTitleIn(&apos;loginMiniTitle&apos;)&quot; data-ng-mouseleave=&quot;miniTitleOut(&apos;loginMiniTitle&apos;)&quot;&gt;...&lt;/a&gt;
+  (Session info: chrome=87.0.4280.88)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:48&apos;
+System info: host: &apos;ATIQUE-CA&apos;, ip: &apos;192.168.2.53&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.9&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\myPC\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55441}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 90285e12af2c0f6d412d417830d4094b
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at testcases.SearchOptionValidation.loginValidation(SearchOptionValidation.java:31)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace67620673", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace67620673'><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;svg id=&quot;menuUser&quot; version=&quot;1.1&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; xmlns:xlink=&quot;http://www.w3.org/1999/xlink&quot; x=&quot;0px&quot; y=&quot;0px&quot; width=&quot;24px&quot; height=&quot;24px&quot; viewBox=&quot;0 0 24 24&quot; enable-background=&quot;new 0 0 24 24&quot; xml:space=&quot;preserve&quot;&gt;...&lt;/svg&gt; is not clickable at point (1392, 32). Other element would receive the click: &lt;a id=&quot;menuUserLink&quot; aria-label=&quot;UserMenu&quot; href=&quot;javascript:void(0)&quot; role=&quot;link&quot; class=&quot;img&quot; data-ng-click=&quot;login(&apos;loginMiniTitle&apos;)&quot; data-ng-mouseenter=&quot;miniTitleIn(&apos;loginMiniTitle&apos;)&quot; data-ng-mouseleave=&quot;miniTitleOut(&apos;loginMiniTitle&apos;)&quot;&gt;...&lt;/a&gt;
+  (Session info: chrome=87.0.4280.88)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:48&apos;
+System info: host: &apos;ATIQUE-CA&apos;, ip: &apos;192.168.2.53&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.9&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\myPC\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55441}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 90285e12af2c0f6d412d417830d4094b
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at testcases.SearchOptionValidation.loginValidation(SearchOptionValidation.java:31)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:764)
+	at org.testng.TestRunner.run(TestRunner.java:585)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.runSuites(TestNG.java:1069)
+	at org.testng.TestNG.run(TestNG.java:1037)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>3</td>
+<td>testcases.SearchOptionValidation@5fa07e12</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -78,37 +157,37 @@ function toggleAllBoxes() {
 <td title='testcases.RedSpObjKeywords.UserApplication()'><b>UserApplication</b><br>Test class: testcases.RedSpObjKeywords</td>
 <td></td>
 <td>2</td>
-<td>testcases.RedSpObjKeywords@50a13c2f</td></tr>
+<td>testcases.RedSpObjKeywords@865dd6</td></tr>
 <tr>
-<td title='testcases.SearchOptionValidation.loginValidation()'><b>loginValidation</b><br>Test class: testcases.SearchOptionValidation</td>
+<td title='testcases.T01_HP_Validation.homeValidation()'><b>homeValidation</b><br>Test class: testcases.T01_HP_Validation</td>
 <td></td>
-<td>13</td>
-<td>testcases.SearchOptionValidation@20a967fe</td></tr>
+<td>2</td>
+<td>testcases.T01_HP_Validation@4da4253</td></tr>
 <tr>
 <td title='testcases.T01_Login_Validation.loginValidation()'><b>loginValidation</b><br>Test class: testcases.T01_Login_Validation</td>
 <td></td>
-<td>14</td>
-<td>testcases.T01_Login_Validation@405b6d75</td></tr>
+<td>16</td>
+<td>testcases.T01_Login_Validation@55b53d44</td></tr>
 <tr>
 <td title='testcases.HeadPhPurcahse.loginValidation()'><b>loginValidation</b><br>Test class: testcases.HeadPhPurcahse</td>
 <td></td>
 <td>25</td>
-<td>testcases.HeadPhPurcahse@682abca7</td></tr>
+<td>testcases.HeadPhPurcahse@482bce4f</td></tr>
 <tr>
 <td title='testcases.HpTabx2Purchase.loginValidation()'><b>loginValidation</b><br>Test class: testcases.HpTabx2Purchase</td>
 <td></td>
 <td>25</td>
-<td>testcases.HpTabx2Purchase@76f881d9</td></tr>
+<td>testcases.HpTabx2Purchase@6a6afff2</td></tr>
 <tr>
 <td title='testcases.MicePurchase.loginValidation()'><b>loginValidation</b><br>Test class: testcases.MicePurchase</td>
 <td></td>
-<td>25</td>
-<td>testcases.MicePurchase@6dd36ab6</td></tr>
+<td>26</td>
+<td>testcases.MicePurchase@1649b0e6</td></tr>
 <tr>
 <td title='testcases.ResSpRunDriver.userlogin()'><b>userlogin</b><br>Test class: testcases.ResSpRunDriver</td>
 <td></td>
-<td>33</td>
-<td>testcases.ResSpRunDriver@1d858300</td></tr>
+<td>61</td>
+<td>testcases.ResSpRunDriver@366647c2</td></tr>
 </table><p>
 </body>
 </html>

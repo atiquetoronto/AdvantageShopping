@@ -53,6 +53,7 @@ public class HpTabx2Purchase {
 		Thread.sleep(2000);
 		driver.findElement(webelementLocator.HpTabPay_Btn).click();
 		Logcollector.debug("HP Tablet Purchase Completed Successfully");
+		System.out.println("HP Tablet Purchase Completed Successfully");
 		}
 	
 	@AfterMethod (groups = {"regression"})

@@ -25,14 +25,15 @@ public static WebDriver driver;
 	
 	@Test (groups = {"regression"})
 	
-	public static void homeValidation()
+	public static void homeValidation() throws InterruptedException
 	
 	{
 		driver.get(userData.homeURL);
 		System.out.println("Home Page Opened Succesfully");
+		Thread.sleep(2000);
 		String expectedTitle = "&nbsp;Advantage Shopping";
 		String actualTitle = driver.getTitle();
-		if (expectedTitle.equals(actualTitle))
+		/*if (expectedTitle.equals(actualTitle))
         {
                System.out.println("Verification Successful - The correct title is displayed on the web page.");
         }
@@ -40,8 +41,8 @@ public static WebDriver driver;
         {
                System.out.println("Verification Failed - An incorrect title is displayed on the web page.");
                Logcollector.debug("Home Page Validated Successfully");
-        }	
-	}
+       */ }	
+	
 	
 	@AfterMethod (groups = {"regression"})
 	
@@ -49,4 +50,6 @@ public static WebDriver driver;
 	{
 		//driver.close();
 	}
+
 }
+	

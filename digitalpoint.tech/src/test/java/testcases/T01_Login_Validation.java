@@ -29,6 +29,7 @@ public class T01_Login_Validation {
 		Thread.sleep(2000);
 		System.out.println("Login Page Opened Successfully");
 		Logcollector.debug("Login Page Opened Successfully");
+		Thread.sleep(2000);
 		driver.findElement(By.id("menuUser")).click();
 		Thread.sleep(2000);
 		driver.findElement(webelementLocator.loginPage_Username).sendKeys(userData.Username);

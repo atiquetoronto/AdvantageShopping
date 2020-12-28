@@ -27,65 +27,80 @@ public static WebDriver driver;
 		 if (keywords.equals("openBrowser"))
 		 {
 			 RedSpObjKeywords.BrowserOpen();
+			 Thread.sleep(2000);
 		 }
 		 
 		 else if ( keywords.equals("aut"))
 		 {
 			 RedSpObjKeywords.UserApplication();
+			 Thread.sleep(2000);
 		}
 	
 		 else if (keywords.equals("menuUser"))
 		 {
 	          RedSpObjKeywords.userMenu();
+	          Thread.sleep(2000);
 		 }
 		 
 		 else if (keywords.equals("uid"))
 				 {
 			 RedSpObjKeywords.Userid();
+			 Thread.sleep(2000);
 							 }
 		 
 		 else if (keywords.equals("upw"))
 		 {
 			 RedSpObjKeywords.Userpw(); 
+			 Thread.sleep(2000);
 		 }
 		 else if (keywords.equals("clickSignin"))
 		 {
 			 RedSpObjKeywords.SigninClick();
+			 Thread.sleep(2000);
 		 }
 		 
 		 else if (keywords.equals("SpeakerBtn"))
 		 {
 			 RedSpObjKeywords.SpeakerBtnClick();
+			 Thread.sleep(2000);
 		 }
 		 
 		 else if (keywords.equals("RedSpeakerBtn"))
 		 {
 			 RedSpObjKeywords.RdSpBtn();
+			 Thread.sleep(2000);
 		 }
 		 
 		 else if (keywords.equals("RdAddCartBtn"))
 		 {
 			 RedSpObjKeywords.RdAdCrtBtn();
+			 Thread.sleep(2000);
 		 }
 		 else if (keywords.equals("RdMenuCartBtn"))
 		 {
 			 RedSpObjKeywords.RdMeCrtBtn();
+			 Thread.sleep(2000);
 		 }
 		 else if (keywords.equals("RdChOutBtn"))
 		 {
 			 RedSpObjKeywords.RedChOut();
+			 Thread.sleep(2000);
 		 }
 		 else if (keywords.equals("RdSpOrdPayBtn"))
 		 {
 			 RedSpObjKeywords.RedSpOrd();
+			 Thread.sleep(2000);
 		 }
 		 else if (keywords.equals("RdMCardBtn"))
 		 {
 			 RedSpObjKeywords.RedMCard();
+			 Thread.sleep(2000);
 		 }
 		 else if (keywords.equals("RdSpPayBtn"))
 		 {
 			 RedSpObjKeywords.RedSpPayment();
+			 Thread.sleep(2000);
+			 
 		 }
 		 
 	}

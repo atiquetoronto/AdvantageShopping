@@ -52,6 +52,7 @@ public class MicePurchase {
 		Thread.sleep(2000);
 		driver.findElement(webelementLocator.MicePay_Btn).click();	
 		Logcollector.debug("Mice Purchase Completed Successfully");
+		System.out.println("Mice Purchase Completed Successfully");
 		}
 	
 	@AfterMethod (groups = {"regression"})

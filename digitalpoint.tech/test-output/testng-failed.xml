@@ -8,18 +8,13 @@
       </run>
     </groups>
     <classes>
-      <class name="testcases.ResSpRunDriver">
+      <class name="testcases.SearchOptionValidation">
         <methods>
-          <include name="userlogin"/>
-        </methods>
-      </class> <!-- testcases.ResSpRunDriver -->
-      <class name="testcases.T01_Login_Validation">
-        <methods>
-          <include name="openBrowser"/>
-          <include name="loginValidation"/>
           <include name="closeBrowser"/>
+          <include name="loginValidation"/>
+          <include name="openBrowser"/>
         </methods>
-      </class> <!-- testcases.T01_Login_Validation -->
+      </class> <!-- testcases.SearchOptionValidation -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

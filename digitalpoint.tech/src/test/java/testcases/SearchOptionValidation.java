@@ -40,6 +40,7 @@ public class SearchOptionValidation {
 		Thread.sleep(2000);
 		driver.findElement(By.id("autoComplete")).sendKeys(userData.Search_Pdct);
 		Logcollector.debug("Search Option Completed Successfully");
+		System.out.println("Search Option Completed Successfully");
 	}
 	@AfterMethod (groups = {"regression"})
 	public static void closeBrowser()
